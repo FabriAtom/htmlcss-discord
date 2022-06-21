@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid black;
 }
 
 
@@ -44,7 +43,8 @@
 .prima-sezione{
     max-width:1906px;
     height: 494px;
-    background-color: violet;
+    background-image:url(/img/jumbo.png);
+    background: cover;
 }
 
 .sezione-rettangolo{
