@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+
+.container{
+    background-color: lightblue;
+    max-width: 100%;
+    height: 81px;
+
+}
+
+.contenitore{
+    max-width: 1165px;
+    height: 34px;
+    background-color: yellow;
+    display: flex;
+}
+
+.logo{
+    width: 25%;
+    
+}
+
+.link{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    list-style-type: none; 
+}
+
+
+
+.login{
+    width: 25%;
+   text-align: right;
+
+}
+
+
+.prima-sezione{
+    max-width:1906px;
+    height: 494px;
+    background-color: violet;
+}
+
+.sezione-rettangolo{
+    max-width: 901px;
+    height: 387px;
+    background-color: pink;
+}
+
+.seconda-sezione{
+   width: 100%;
+   padding: 40px 0;
+
+}
+
+.padre{
+    max-width: 1200px;
+    display: flex;
+}
+
+.col-sessanta{
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+}
+
+
+.col-quaranta{
+    width: 40%;
+    height: 500px;
+    background-color: pink;
+}
+
+.terza-sezione{
+    width: 100%;
+   padding: 40px 0;
+   background-color: lightgrey;
+   flex-direction: row-reverse;
+
+}
+
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.section-with-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-col-reverse{
+    flex-direction: row-reverse;
+}
+
+
+
+.quarta-sezione{
+    width: 100%;
+    background-color: gray;
+
+
+}
+
+.quadrato-100{
+    width: 1200px;
+    height: 868px;
+    background-color: green;
+}
+
+
+
+
+.ultima-sezione{
+    width: 100%;
+    background-color: grey;
+    
+}
+
+
+.quad-col{
+    max-width:1200px;
+    height: 553px;
+    display: flex;
+}
+
+
+.colonna-doppia{
+    width: 30%;
+    height: 536px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.colonna-singola{
+    width: 17.5%;
+    height: 536px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 89px;
+    background-color: grey;
+}
+
+.foot{
+    width: 1200px;
+    height: 58px;
+    background-color: greenyellow;
+}
+
+#log{
+    /* text-align: start; */
+}
+
+#bott{
+    /* text-align: end; */
+}
+
+.white{
+    color: white;
+}
