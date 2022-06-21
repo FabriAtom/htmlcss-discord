@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-
+/* HEADER */
 .container{
     background-color: blue;
     max-width: 100%;
@@ -31,32 +31,72 @@
     list-style-type: none; 
 }
 
-
-
 .login{
     width: 20%;
    text-align: right;
 
 }
 
-
+/* PRIMA SEZIONE */
 .prima-sezione{
     max-width:1906px;
     height: 494px;
-    background-image:url(/img/jumbo.png);
-    background: cover;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .sezione-rettangolo{
     max-width: 901px;
     height: 387px;
-    background-color: pink;
 }
 
+.sezione-rettangolo h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+#padding-top{
+    padding-top: 50px;
+    margin: 0 50px;
+    color: white;
+    font: 25px;
+    text-align: center;
+}
+
+.button{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECONDA/terza/quarta SEZIONE */
 .seconda-sezione{
    width: 100%;
    padding: 40px 0;
 
+}
+
+.col-quaranta p{
+    margin: 0 30px;
+    
 }
 
 .padre{
@@ -67,15 +107,38 @@
 .col-sessanta{
     width: 60%;
     height: 500px;
-    background-color: aqua;
+    background-color: ;
 }
-
 
 .col-quaranta{
     width: 40%;
-    height: 500px;
     background-color: pink;
 }
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#sfondo1{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+
+#sfondo2{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+}
+
+#sfondo3{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+
 
 .terza-sezione{
     width: 100%;
@@ -112,11 +175,21 @@
 .quadrato-100{
     width: 1200px;
     height: 868px;
-    background-color: green;
+    background-color: lightgray;
 }
 
+.quadrato-100 h2{
+    font-size: 40px;
+    text-align: center;
+}
 
-
+.quadrato-100 p{
+    text-align: center;
+}
+.quadrato-100 img{
+    display:block;
+    margin:0px auto;
+}
 
 .ultima-sezione{
     width: 100%;
@@ -145,7 +218,6 @@
     background-color: yellowgreen;
     border: 1px solid black;
 }
-
 
 .footer{
     width: 100%;
